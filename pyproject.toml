@@ -5,21 +5,26 @@ build-backend = "uv_build"
 [project]
 name = "qCHeff"
 version = "0.2.1"
-description = "Effective Hamiltonian calculator for quantum systems."
+description = "qCHeff (/kju ʃɛf/) calculates effective Hamiltonians for quantum systems."
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"
-keywords = [  ]
+license-files = [ "LICENSE" ]
+keywords = [ "Quantum Information", "Quantum Computing", "Effective Hamiltonians", "Superconducting Qubits" ]
 authors = [
   { name = "abhishekchak52", email = "abhishekchak52@gmail.com" },
   { name = "taylorpatti", email = "tpatti@nvidia.com" },
 ]
 classifiers = [
+  "Development Status :: 3 - Alpha",
   "Programming Language :: Python",
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3.13",
 ]
+urls = { "Repository" = "https://github.com/NVlabs/qCHeff", "Documentation" = "https://qcheff.readthedocs.io/en/latest/" }
+
+
 dependencies = [
   "more-itertools>=10.4.0",
   "numpy>=2.0.0",
